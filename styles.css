@@ -1,5 +1,6 @@
 *{
     padding: 0px;
+    scroll-behavior: smooth;
 }
 body{
     padding: 0px;
@@ -13,7 +14,8 @@ body{
 .navbar-wrapper{
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: sticky;
     top: 0;
     backdrop-filter: blur(20px);
@@ -48,7 +50,7 @@ ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px;
+    padding: 40px;
 }
 .intro-texts h1{
     font-family: monospace;
@@ -60,7 +62,7 @@ ul li a:hover{
     color: gray;
 }
 .intro-image img{
-    width: 600px;
+    width: 650px;
     height: 400px;
     position: relative;
     top: 80px;
@@ -99,4 +101,33 @@ ul li a:hover{
     font-family: monospace;
     font-size: 2rem;
     color: gray;
+}
+/* footer */
+.footer-wrapper{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.footer ul  {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer .infos p{
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 1.4rem;
 }
